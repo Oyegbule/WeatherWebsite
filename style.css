@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(3, 49, 255);
+    background: linear-gradient(3deg, rgba(3,49,255,1) 0%, rgba(82,179,247,1) 100% );
+}
+.card-body{
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+}
+.header{
+    text-align: center;
+    font-size: 3.2rem;
+    color: rgb(189,220,255);
+    margin: 4rem 0 0 0;
+}
+.card-title, .card-text{
+    color: rgb(247,251,255);
+}
+.card-subtitle{
+    color: rgb(184,221,253);
+}
+img{
+    width: 100px;
+    margin-bottom: 2rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
